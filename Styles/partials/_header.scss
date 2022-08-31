@@ -1,0 +1,16 @@
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    position: static;
+    margin-top: 10px;
+    div{
+        a{
+        color: $primaryColor;
+        font-weight: bold;
+        }
+            &:hover{
+                background-color: $hoverColor;
+            }
+    }
+}

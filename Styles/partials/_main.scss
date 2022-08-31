@@ -1,0 +1,27 @@
+main{
+    grid-area: main;
+    nav{
+        display: inline-block;
+        ul{
+            list-style: none;
+            text-align: end;
+            li{
+            display: inline-block;
+            text-align: center;
+            font-weight: bold;
+                a{
+                margin-left: 149px;
+                border: solid 2px;
+                padding: 5px;
+                border-radius: 10px;
+                border-color: rgb(0, 0, 0);
+                color: $primaryColor;
+                &:hover{
+                    background-color: $hoverColor;
+                }
+                }
+            }
+        }
+    }
+    
+}

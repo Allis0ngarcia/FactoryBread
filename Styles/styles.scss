@@ -1,0 +1,27 @@
+@import "./partials/variables", "./partials/header", "./partials/main", "./partials/footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 150px 600px 50px;
+    font-family: 'Delmon';
+    background-image: $backgroundColor;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
