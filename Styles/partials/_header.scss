@@ -1,9 +1,5 @@
 header{
-    grid-area: header;
-    display: flex;
-    justify-content: center;
-    position: static;
-    margin-top: 10px;
+    @extend %displayH;
     div{
         a{
         color: $primaryColor;

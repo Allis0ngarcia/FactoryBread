@@ -1,0 +1,7 @@
+@mixin botonesCon($borderColor, $bgColor){
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 05px;
+    border-color: $borderColor;
+    background-color: $bgColor;
+}

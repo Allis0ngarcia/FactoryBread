@@ -1,10 +1,42 @@
-header {
-  grid-area: header;
-  display: flex;
-  justify-content: center;
-  position: static;
-  margin-top: 10px;
+@charset "UTF-8";
+.diseño {
+  font-family: "Delmon";
+  background-color: rgb(190, 115, 130);
 }
+
+.tiendas {
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sedes {
+  list-style: none;
+  text-align: end;
+}
+
+.ubi1 {
+  justify-content: left;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.ubi2 {
+  justify-content: left;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.ubi3 {
+  justify-content: left;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 40px;
+  /*border-bottom: map-get($estilos, colorFondo );*/
+}
+
 header div a {
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -22,11 +54,6 @@ main nav {
 main nav ul {
   list-style: none;
   text-align: end;
-}
-main nav ul li {
-  display: inline-block;
-  text-align: center;
-  font-weight: bold;
 }
 main nav ul li a {
   margin-left: 149px;
@@ -47,6 +74,37 @@ footer {
   text-align: center;
   margin-bottom: 10px;
   background-image: linear-gradient(100deg, #ffe8ff 0, #eecfff 25%, #c8b5f2 50%, #a59bca 75%, #8682a4 100%);
+}
+
+.buttonNav {
+  margin-left: 149px;
+  border: solid 2px;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+}
+
+main nav ul li {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  position: static;
+  margin-top: 10px;
+}
+
+.submit {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: rgb(248, 248, 252);
+  background-color: rgb(115, 115, 219);
 }
 
 * {
@@ -70,4 +128,144 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+.dropdown-item {
+  display: block;
+  clear: both;
+  font-weight: 400;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+}
+
+.title {
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.datos {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  font-size: x-large;
+  margin-left: 540px;
+  padding: 40px;
+  background-color: rgb(150, 152, 153);
+  border-radius: 5px;
+  /*border-bottom: 20px solid rgb(190, 115, 130);*/
+}
+
+.datosR {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+  margin-left: 450px;
+  margin-bottom: 50px;
+  padding: 40px;
+  background-color: rgb(150, 152, 153);
+  border-radius: 5px;
+  /*border-bottom: 40px solid rgb(190, 115, 130);*/
+}
+
+.item1 {
+  justify-content: left;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.item2 {
+  justify-content: left;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.item3 {
+  justify-content: left;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.panaderia {
+  float: left;
+  justify-content: left;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: 20px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+.desayunos {
+  float: right;
+  justify-content: right;
+  text-align: center;
+  margin-right: 300px;
+  margin-top: 20px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+}
+
+.pasteleria {
+  clear: left;
+  justify-content: left;
+  text-align: center;
+  margin-right: 450px;
+  margin-top: 350px;
+}
+
+.antojos {
+  display: block;
+  justify-content: right;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 0px;
+}
+
+.contacto {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.diseñoC {
+  font-family: "Delmon";
+  background-image: url(../Multimedia/istockphoto-508459346-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.datosC {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  font-size: x-large;
+  margin-left: 550px;
+  padding: 40px;
+  background-color: rgb(150, 152, 153);
+  border-radius: 5px;
+}
+
+@media (min-width: 425px) {
+  .cuerpoC {
+    display: grid;
+    grid-template-areas: "diseñoC" "contacto";
+    grid-template-columns: 100%;
+    grid-template-rows: 100% 259px;
+  }
 }/*# sourceMappingURL=styles.css.map */

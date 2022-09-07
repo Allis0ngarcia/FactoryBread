@@ -1,0 +1,8 @@
+.buttonNav{
+    @extend %botones;
+    
+}
+
+.submit{
+    @include botonesCon(rgb(248, 248, 252), rgb(115, 115, 219));
+}

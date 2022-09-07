@@ -1,4 +1,4 @@
-@import "./partials/variables", "./partials/header", "./partials/main", "./partials/footer";
+@import "./partials/diseñoT","./partials/variables", "./partials/header", "./partials/main", "./partials/footer", "./partials/extends","./partials/mixins","./partials/maps","./partials/buttons";
 
 * {
     margin: 0;
@@ -23,5 +23,146 @@
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+.dropdown-item{
+    display: block;
+    clear: both;
+    font-weight: 400;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+}
+
+.title{    
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.datos{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+    margin-top: 50px;
+    font-size: x-large;
+    margin-left: 540px;
+    padding: 40px;
+    background-color: rgb(150, 152, 153);
+    border-radius: 05px;
+    /*border-bottom: 20px solid rgb(190, 115, 130);*/
+}
+
+.datosR{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 450px;
+    margin-bottom: 50px;
+    padding: 40px;
+    background-color: rgb(150, 152, 153);
+    border-radius: 05px;
+    /*border-bottom: 40px solid rgb(190, 115, 130);*/
+}
+
+.item1{
+    justify-content: left;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.item2{
+    justify-content: left;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.item3{
+    justify-content: left;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.panaderia{
+    float: left;
+    justify-content: left;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.desayunos{
+    float: right;
+    justify-content: right;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.pasteleria{
+    clear: left;
+    justify-content: left;
+    text-align: center;
+    margin-right: 450px;
+    margin-top: 350px;
+}
+
+.antojos{
+    display: block;
+    justify-content: right;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 0px;
+}
+
+.contacto{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.diseñoC{
+    font-family: 'Delmon';
+    background-image: url(../Multimedia/istockphoto-508459346-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.datosC{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+    margin-top: 10px;
+    font-size: x-large;
+    margin-left: 550px;
+    padding: 40px;
+    background-color: rgb(150, 152, 153);
+    border-radius: 05px;
+}
+
+
+@media (min-width: 425px){
+.cuerpoC{
+    display: grid;
+    grid-template-areas: "diseñoC"
+                         "contacto";
+    grid-template-columns: 100%;
+    grid-template-rows: 100% 259px;
+}
 }
 

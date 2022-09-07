@@ -1,0 +1,37 @@
+.diseño{
+    font-family: 'Delmon';
+    background-color: rgb(190, 115, 130);
+}
+
+.tiendas{
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sedes{
+    list-style: none;
+    text-align: end;
+}
+
+.ubi1{
+    justify-content: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.ubi2{
+    justify-content: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.ubi3{
+    justify-content: left;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 40px;
+    /*border-bottom: map-get($estilos, colorFondo );*/
+}

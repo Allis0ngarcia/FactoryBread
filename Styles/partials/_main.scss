@@ -1,3 +1,4 @@
+
 main{
     grid-area: main;
     nav{
@@ -6,9 +7,7 @@ main{
             list-style: none;
             text-align: end;
             li{
-            display: inline-block;
-            text-align: center;
-            font-weight: bold;
+            @extend %displayMain;
                 a{
                 margin-left: 149px;
                 border: solid 2px;
