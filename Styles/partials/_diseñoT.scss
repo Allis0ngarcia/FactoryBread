@@ -1,6 +1,14 @@
 .diseño{
-    font-family: 'Delmon';
-    background-color: rgb(190, 115, 130);
+    font-family: $primaryFont;
+    background-color: map-get($estilos, colorFondo )
+    /*background-color: rgba(161, 117, 161, 0.623);*/
+}
+
+.diseñoC{
+    font-family: $primaryFont;
+    background-image: url(../Multimedia/istockphoto-508459346-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .tiendas{

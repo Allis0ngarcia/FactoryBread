@@ -1,47 +1,11 @@
 @charset "UTF-8";
-.diseño {
-  font-family: "Delmon";
-  background-color: rgb(190, 115, 130);
-}
-
-.tiendas {
-  justify-content: center;
-  text-align: center;
-  margin-top: 50px;
-}
-
-.sedes {
-  list-style: none;
-  text-align: end;
-}
-
-.ubi1 {
-  justify-content: left;
-  text-align: center;
-  margin-left: 5px;
-  margin-top: 40px;
-}
-
-.ubi2 {
-  justify-content: left;
-  text-align: center;
-  margin-left: 5px;
-  margin-top: 40px;
-}
-
-.ubi3 {
-  justify-content: left;
-  text-align: center;
-  margin-left: 5px;
-  margin-top: 40px;
-  /*border-bottom: map-get($estilos, colorFondo );*/
-}
-
 header div a {
   color: rgb(0, 0, 0);
   font-weight: bold;
+  background-color: linear-gradient(100deg, #ffe8ff 0, #eecfff 25%, #c8b5f2 50%, #a59bca 75%, #8682a4 100%);
 }
-header div:hover {
+
+.indexHeader:hover {
   background-color: rgba(128, 61, 204, 0.356);
 }
 
@@ -62,9 +26,9 @@ main nav ul li a {
   border-radius: 10px;
   border-color: rgb(0, 0, 0);
   color: rgb(0, 0, 0);
-}
-main nav ul li a:hover {
-  background-color: rgba(128, 61, 204, 0.356);
+  /*&:hover{
+      background-color: $hoverColor;
+  }*/
 }
 
 footer {
@@ -107,43 +71,49 @@ header {
   background-color: rgb(115, 115, 219);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-
-.cuerpo {
-  display: grid;
-  grid-template-areas: "header" "main" "footer";
-  grid-template-columns: 100%;
-  grid-template-rows: 150px 600px 50px;
+.diseño {
   font-family: "Delmon";
-  background-image: linear-gradient(100deg, #ffe8ff 0, #eecfff 25%, #c8b5f2 50%, #a59bca 75%, #8682a4 100%);
+  background-color: linear-gradient(100deg, #ffe8ff 0, #eecfff 25%, #c8b5f2 50%, #a59bca 75%, #8682a4 100%);
 }
 
-.contenedor {
-  display: flex;
-  justify-content: center;
-  position: relative;
+.diseñoC {
+  font-family: "Delmon";
+  background-image: url(../Multimedia/istockphoto-508459346-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.dropdown-item {
-  display: block;
-  clear: both;
-  font-weight: 400;
-  text-align: inherit;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-}
-
-.title {
+.tiendas {
   justify-content: center;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 50px;
+}
+
+.sedes {
+  list-style: none;
+  text-align: end;
+}
+
+.ubi1 {
+  justify-content: left;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.ubi2 {
+  justify-content: left;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 40px;
+}
+
+.ubi3 {
+  justify-content: left;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 40px;
+  /*border-bottom: map-get($estilos, colorFondo );*/
 }
 
 .datos {
@@ -172,6 +142,18 @@ header {
   /*border-bottom: 40px solid rgb(190, 115, 130);*/
 }
 
+.datosC {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  font-size: x-large;
+  margin-left: 497px;
+  padding: 40px;
+  background-color: rgb(150, 152, 153);
+  border-radius: 5px;
+}
+
 .item1 {
   justify-content: left;
   text-align: left;
@@ -194,6 +176,10 @@ header {
   margin-left: 50px;
   margin-top: 60px;
   margin-bottom: 50px;
+}
+
+.menuDiseño {
+  background-color: linear-gradient(100deg, #ffe8ff 0, #eecfff 25%, #c8b5f2 50%, #a59bca 75%, #8682a4 100%);
 }
 
 .panaderia {
@@ -236,29 +222,50 @@ header {
   margin-top: 0px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.cuerpo {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 150px 600px 50px;
+  font-family: "Delmon";
+  background-image: linear-gradient(100deg, #ffe8ff 0, #eecfff 25%, #c8b5f2 50%, #a59bca 75%, #8682a4 100%);
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.dropdown-item {
+  display: block;
+  clear: both;
+  font-weight: 400;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+}
+
+.title {
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+}
+
 .contacto {
   justify-content: center;
   text-align: center;
   margin-top: 20px;
-}
-
-.diseñoC {
-  font-family: "Delmon";
-  background-image: url(../Multimedia/istockphoto-508459346-612x612.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
-.datosC {
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  margin-top: 10px;
-  font-size: x-large;
-  margin-left: 550px;
-  padding: 40px;
-  background-color: rgb(150, 152, 153);
-  border-radius: 5px;
+  color: rgb(0, 0, 0);
 }
 
 @media (min-width: 425px) {

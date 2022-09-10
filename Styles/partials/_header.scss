@@ -4,9 +4,13 @@ header{
         a{
         color: $primaryColor;
         font-weight: bold;
+        background-color: $backgroundColor;
         }
-            &:hover{
-                background-color: $hoverColor;
-            }
+    }
+}
+
+.indexHeader{
+    &:hover{
+        background-color: $hoverColor;
     }
 }

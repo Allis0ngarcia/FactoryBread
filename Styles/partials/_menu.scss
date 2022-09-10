@@ -1,0 +1,38 @@
+.menuDiseño{
+    background-color: $backgroundColor;
+}
+.panaderia{
+    float: left;
+    justify-content: left;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.desayunos{
+    float: right;
+    justify-content: right;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.pasteleria{
+    clear: left;
+    justify-content: left;
+    text-align: center;
+    margin-right: 450px;
+    margin-top: 350px;
+}
+
+.antojos{
+    display: block;
+    justify-content: right;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 0px;
+}
