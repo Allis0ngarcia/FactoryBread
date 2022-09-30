@@ -1,4 +1,4 @@
-@media screen and (min-width: 767px) and (max-width:1024px){
+/*@media screen and (min-width: 767px) and (max-width:1024px){*/
 
 img{
 	width: 100%;
@@ -85,7 +85,7 @@ img{
 
 
 .right {
-	background: url(/SASS/Multimedia/login.png);
+	background-image: url(../Multimedia/login.png);
 	color: #fff;
     height: 50%;
     position: relative;
@@ -127,5 +127,4 @@ img{
     width: 28px;
     padding-right: 7px;
     margin-top: -3px;
-}
 }

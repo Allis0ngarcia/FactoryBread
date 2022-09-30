@@ -1,95 +1,94 @@
 
-@media screen and (min-width: 767px) and (max-width:1024px){
+/*@media screen and (min-width: 767px) and (max-width:1024px){*/
     
-.navAbo{
-    grid-area: main;
-    nav{
-        display: inline-block;
-        ul{
-            list-style: none;
-            /*text-align: end;*/
-            li{
-            @extend %displayBot;
-                a{
-                margin-top: 50px;
-                margin-left: 120px;
-                border: solid 2px;
-                padding: 5px;
-                border-radius: 10px;
-                border-color: rgb(0, 0, 0);
-                color: $primaryColor;
-                &:hover{
-                    background-color: $hoverColor;
-                }
+    .navAbo{
+        grid-area: main;
+        nav{
+            display: inline-block;
+            ul{
+                list-style: none;
+                li{
+                @extend %displayBot;
+                    a{
+                    margin-top: 50px;
+                    margin-left: 120px;
+                    border: solid 2px;
+                    padding: 5px;
+                    border-radius: 10px;
+                    border-color: rgb(0, 0, 0);
+                    color: $primaryColor;
+                    &:hover{
+                        background-color: $hoverColor;
+                    }
+                    }
                 }
             }
         }
+        
     }
     
-}
-
-.item1{
-    justify-content: left;
-    text-align: left;
-    margin-left: 60px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.item2{
-    justify-content: right;
-    text-align: right;
-    margin-left: 400px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.item3{
-    justify-content: left;
-    text-align: left;
-    margin-left: 60px;
-    margin-top: 60px;
-    margin-bottom: 20px;
-}
-
-.colaborador1{
-    float: left;
-    justify-content: left;
-    text-align: center;
-    margin-left: 50px;
-    margin-top: 10px;
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-
-.colaborador2{
-    float: left;
-    justify-content: left;
-    text-align: center;
-    margin-left: 40px;
-    margin-top: 10px;
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-
-.colaborador3{
-    float: left;
-    justify-content: left;
-    text-align: center;
-    margin-left: 40px;
-    margin-top: 10px;
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-
-.colaborador4{
-    float: left;
-    justify-content: left;
-    text-align: center;
-    margin-left: 30px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-}
+    .item1{
+        justify-content: left;
+        text-align: left;
+        margin-left: 60px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .item2{
+        justify-content: right;
+        text-align: right;
+        margin-left: 400px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .item3{
+        justify-content: left;
+        text-align: left;
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .colaborador1{
+        float: left;
+        justify-content: left;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 10px;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    
+    .colaborador2{
+        float: left;
+        justify-content: left;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 10px;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    
+    .colaborador3{
+        float: left;
+        justify-content: left;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 10px;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    
+    .colaborador4{
+        float: left;
+        justify-content: left;
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    

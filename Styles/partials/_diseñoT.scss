@@ -1,8 +1,7 @@
-@media screen and (min-width: 767px) and (max-width:1024px){
+/*@media screen and (min-width: 767px) and (max-width:1024px){*/
 .diseño{
     font-family: $primaryFont;
     background-color: map-get($estilos, colorFondo )
-    /*background-color: rgba(161, 117, 161, 0.623);*/
 }
 
 .diseñoC{
@@ -46,6 +45,4 @@
     text-align: center;
     margin-left: 5px;
     margin-top: 40px;
-    /*border-bottom: map-get($estilos, colorFondo );*/
-}
 }

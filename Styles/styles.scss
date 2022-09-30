@@ -1,7 +1,6 @@
-@import "./partials/logIn","./partials/registro","./partials/variables", "./partials/header", "./partials/main",
- "./partials/footer", "./partials/extends","./partials/mixins",
- "./partials/maps","./partials/buttons","./partials/diseñoT",
- "./partials/datos","./partials/about","./partials/menu";
+@import "./partials/logIn","./partials/registro","./partials/variables", "./partials/header",
+ "./partials/main","./partials/footer", "./partials/extends","./partials/mixins","./partials/maps",
+ "./partials/buttons","./partials/diseñoT","./partials/datos","./partials/about","./partials/menu";
 
 * {
     margin: 0;
@@ -29,7 +28,7 @@
     margin-left: 10px;
     margin-top: 40px;
     margin-right: 10px;
-    border-radius: 150px;
+    border-radius: 200px;
 }
 
 .contenedor{

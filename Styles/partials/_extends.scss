@@ -1,11 +1,12 @@
-@media screen and (min-width: 767px) and (max-width:1024px){
+/*@media screen and (min-width: 767px) and (max-width:1024px){*/
+
 %botones{
-  margin-left: 149px;
-  border: solid 2px;
-  padding: 5px;
-  border-radius: 10px;
-  border-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
+    margin-left: 149px;
+    border: solid 2px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 %displayMain{
@@ -25,5 +26,4 @@
     justify-content: center;
     position: static;
     margin-top: 10px;
-}
 }

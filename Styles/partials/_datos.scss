@@ -1,4 +1,4 @@
-@media screen and (min-width: 767px) and (max-width:1024px){
+/*@media screen and (min-width: 767px) and (max-width:1024px){*/
 .datos{
     display: inline-block;
     justify-content: center;
@@ -23,7 +23,6 @@
     padding: 40px;
     background-color: rgb(150, 152, 153);
     border-radius: 05px;
-    /*border-bottom: 40px solid rgb(190, 115, 130);*/
 }
 
 .datosC{
@@ -36,9 +35,5 @@
     padding: 40px;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
-    /*background-image: url(../Multimedia/istockphoto-508459346-612x612.jpg);
-    background-size: cover;
-    background-color: rgb(150, 152, 153);*/
     border-radius: 05px;
-}
 }
