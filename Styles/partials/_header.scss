@@ -1,3 +1,4 @@
+@media screen and (min-width: 767px) and (max-width:1024px){
 header{
     @extend %displayH;
     div{
@@ -13,4 +14,5 @@ header{
     &:hover{
         background-color: $hoverColor;
     }
+}
 }

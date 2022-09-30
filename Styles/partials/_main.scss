@@ -1,9 +1,11 @@
+@media screen and (min-width: 767px) and (max-width:1024px){
 
 main{
     grid-area: main;
     nav{
         display: inline-block;
         ul{
+            margin-top: 50px;
             list-style: none;
             text-align: end;
             li{
@@ -15,12 +17,12 @@ main{
                 border-radius: 10px;
                 border-color: rgb(0, 0, 0);
                 color: $primaryColor;
-                /*&:hover{
-                    background-color: $hoverColor;
-                }*/
+                &:hover{
+                    background-color: rgba(255, 255, 255, 0.486);
+                }
                 }
             }
         }
     }
     
-}
+}}

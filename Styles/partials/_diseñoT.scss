@@ -1,3 +1,4 @@
+@media screen and (min-width: 767px) and (max-width:1024px){
 .diseño{
     font-family: $primaryFont;
     background-color: map-get($estilos, colorFondo )
@@ -7,8 +8,12 @@
 .diseñoC{
     font-family: $primaryFont;
     background-image: url(../Multimedia/istockphoto-508459346-612x612.jpg);
+    background-size: 50px 50px;
+    background-size: 50% 50%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    position: relative;
 }
 
 .tiendas{
@@ -42,4 +47,5 @@
     margin-left: 5px;
     margin-top: 40px;
     /*border-bottom: map-get($estilos, colorFondo );*/
+}
 }

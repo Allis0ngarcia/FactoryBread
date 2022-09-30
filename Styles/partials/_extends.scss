@@ -1,5 +1,6 @@
+@media screen and (min-width: 767px) and (max-width:1024px){
 %botones{
-    margin-left: 149px;
+  margin-left: 149px;
   border: solid 2px;
   padding: 5px;
   border-radius: 10px;
@@ -13,10 +14,16 @@
     font-weight: bold;
 }
 
+%displayBot{
+    display: inline-block;
+    font-weight: bold;
+}
+
 %displayH{
     grid-area: header;
     display: flex;
     justify-content: center;
     position: static;
     margin-top: 10px;
+}
 }

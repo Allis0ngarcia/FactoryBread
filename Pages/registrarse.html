@@ -12,57 +12,30 @@
     <title>Registrarse</title>
 </head>
 <body>
-
-    <div class="col-sm-12 col-md-12 col-lg-12">
-    <h1 class="title">Ingresa tus datos</h1><br>
-    <form class="datosR">
-        <div class="mb-3">
-          <label for="InputNombre" class="form-label">Nombre:</label>
-          <input type="text" class="form-control" id="InputNombre">
+    <section class="login">
+      <div class="login_box">
+        <div class="left">
+          <div class="top_link"><a href="../index.html"><img src="https://drive.google.com/u/0/uc?id=16U__U5dJdaTfNGobB_OpwAJ73vM50rPV&export=download" alt="">Volver al inicio</a></div>
+          <div class="contact">
+            <form action="">
+              <h3>REGISTRO</h3>
+              <input type="text" placeholder="Nombre">
+              <input type="text" placeholder="Apellido">
+              <input type="email" placeholder="Email" id="InputEmail">
+              <input type="tel" placeholder="Celular" id="InputCelular">
+                
+              <input type="text" placeholder="Dirección" id="InputDireccion">
+              <input type="password" placeholder="Crea una contraseña">
+              <button class="submit">REGISTRARME</button>
+            </form>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="InputApellido" class="form-label">Apellido:</label>
-          <input type="text" class="form-control" id="InputApellido">
+        <div class="right">
+          <div class="right-text">
+          </div>
+          <div class="right-inductor"><img src="" alt=""></div>
         </div>
-        <div class="mb-3">
-            <label for="InputEmail" class="form-label">Correo electrónico:</label>
-            <input type="email" class="form-control" id="InputEmail">
-          </div>
-          <div class="mb-3">
-            <label for="InputCelular" class="form-label">Celular:</label>
-            <input type="tel" class="form-control" id="InputCelular">
-          </div>
-          <div class="mb-3">
-            <label for="InputGenero" class="form-label">Genero:</label><br>
-            <label for="InputM" class="form-label">M</label>
-            <input type="radio" class="form-control" id="InputM">
-            <label for="InputF" class="form-label">F</label>
-            <input type="radio" class="form-control" id="InputF">
-          </div>
-          <div class="mb-3">
-            <label for="InputBarrio" class="form-label">Barrio:</label>
-            <select>
-                <option>Seleccione una opción</option>
-                <option></option>
-                <option></option>
-                <option></option>
-            </select>
-          </div>
-          <div class="mb-3">
-            <label for="InputDireccion" class="form-label">Dirección:</label>
-            <input type="text" class="form-control" id="InputDireccion">
-          </div>
-          <div class="mb-3">
-            <label for="InputCon" class="form-label">Crea una Contraseña:</label>
-            <input type="password" class="form-control" id="InputCon">
-          </div>
-          <div class="mb-3">
-            <label for="InputTerms" class="form-label">Aceptar términos y condiciones</label>
-            <input type="checkbox" class="form-control" id="InputTerms" checked>
-          </div>
-        <button type="submit" class="btn btn-primary">Ingresar</button>
-        <button type="reset" class="btn btn-primary">Restablecer</button>
-      </form>
-    </div>
+      </div>
+    </section>
 </body>
 </html>

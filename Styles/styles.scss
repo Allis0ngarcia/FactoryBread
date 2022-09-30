@@ -1,4 +1,4 @@
-@import "./partials/variables", "./partials/header", "./partials/main",
+@import "./partials/logIn","./partials/registro","./partials/variables", "./partials/header", "./partials/main",
  "./partials/footer", "./partials/extends","./partials/mixins",
  "./partials/maps","./partials/buttons","./partials/diseñoT",
  "./partials/datos","./partials/about","./partials/menu";
@@ -22,6 +22,16 @@
     background-image: $backgroundColor;
 }
 
+    
+.logo{
+    height: 180px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 150px;
+}
+
 .contenedor{
     display: flex;
     justify-content: center;
@@ -41,13 +51,14 @@
 .title{    
     justify-content: center;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .contacto{
     justify-content: center;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
     color: $primaryColor;
 }
 

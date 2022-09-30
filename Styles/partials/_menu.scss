@@ -1,3 +1,5 @@
+@media screen and (min-width: 767px) and (max-width:1024px){
+
 .menuDiseño{
     background-color: $backgroundColor;
 }
@@ -5,34 +7,40 @@
     float: left;
     justify-content: left;
     text-align: center;
-    margin-left: 350px;
+    margin-left: 40px;
     margin-top: 20px;
     animation-duration: 3s;
     animation-name: slidein;
 }
 
 .desayunos{
-    float: right;
-    justify-content: right;
+    float: left;
+    justify-content: left;
     text-align: center;
-    margin-right: 300px;
+    margin-left: 40px;
     margin-top: 20px;
     animation-duration: 3s;
     animation-name: slidein;
 }
 
 .pasteleria{
-    clear: left;
+    float: left;
     justify-content: left;
     text-align: center;
-    margin-right: 450px;
-    margin-top: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
 
 .antojos{
-    display: block;
-    justify-content: right;
+    float: left;
+    justify-content: left;
     text-align: center;
-    margin-left: 550px;
-    margin-top: 0px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
 }
